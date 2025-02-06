@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { SketchPicker } from "react-color";
 import { Link } from "react-router-dom";
+import HomeLink from "./HomeLink";
 
 interface ColorResult {
   hex: string;
@@ -73,6 +74,7 @@ const Identify = () => {
           fontWeight: "lighter",
         }}
       >
+        <HomeLink />
         きのこ識別
       </h2>
 
