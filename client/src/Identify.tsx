@@ -248,7 +248,7 @@ const Identify = () => {
         {step > 1 && (
           <button
             onClick={() => setStep(step - 1)}
-            style={{ fontSize: "1.5rem" }}
+            style={{ fontSize: "1.5rem", backgroundColor: "bisque" }}
           >
             戻る
           </button>
@@ -256,7 +256,11 @@ const Identify = () => {
         {step < 3 && (
           <button
             onClick={() => setStep(step + 1)}
-            style={{ marginLeft: "10px", fontSize: "1.5rem" }}
+            style={{
+              marginLeft: "10px",
+              fontSize: "1.5rem",
+              backgroundColor: "bisque",
+            }}
           >
             次へ
           </button>
