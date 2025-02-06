@@ -10,14 +10,7 @@ interface ColorResult {
   hsv: { h: number; s: number; v: number; a: number };
 }
 
-const stalkFeatures = [
-  "繊維状",
-  "滑らか",
-  "鱗片がある",
-  "環がある",
-  "太い",
-  "細い",
-];
+const stalkFeatures = ["繊維状", "滑らか", "鱗片がある", "太い", "細い"];
 
 const Identify = () => {
   const [step, setStep] = useState(1);
