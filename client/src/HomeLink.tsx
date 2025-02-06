@@ -12,6 +12,8 @@ const HomeLink = () => {
         textDecoration: "none",
         color: "black",
         fontWeight: "bold",
+        backgroundColor: "bisque",
+        padding: "3px",
       }}
     >
       Home
