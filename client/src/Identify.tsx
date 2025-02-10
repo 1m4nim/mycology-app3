@@ -145,9 +145,7 @@ const Identify = () => {
                 backgroundColor: "bisque",
                 fontSize: "1.5rem",
               }}
-            >
-              選択された特徴: {selectedStalkFeature}
-            </p>
+            ></p>
           )}
         </>
       )}
